@@ -1,4 +1,4 @@
-package cn.III_extends_program.线程;
+package cn.III_extends_program.线程.线程交替执行;
 
 /**
  * @author taoqi

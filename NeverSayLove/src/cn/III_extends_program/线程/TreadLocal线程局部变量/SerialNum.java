@@ -17,6 +17,7 @@ public class SerialNum {
     };
 
     public static int getNum() {
+
         return ((Integer) (serialNum.get())).intValue();
     }
 }
