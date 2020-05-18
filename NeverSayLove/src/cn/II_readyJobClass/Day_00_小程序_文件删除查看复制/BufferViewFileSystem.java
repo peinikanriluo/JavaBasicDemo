@@ -20,10 +20,10 @@ public class BufferViewFileSystem {
             System.out.println(1);
             try {
                 OperateMethod(arr, filearr, f1);
-                System.out.println("程序已退出,谢谢您的使用,本次费用陶老板买单了。");
+                System.out.println("程序已退出,谢谢您的使用。");
                 break;
             } catch (Exception e) {
-                System.out.println("输入不合法,已返回主目录,请不要这样做了,重新选择你要删除的文件");
+                System.out.println("输入不合法,已返回主目录,请不要这样做了");
             }
         }
     }

@@ -2,11 +2,13 @@ package cn.I_basic.MyCollection.StudentManage_String_;
 
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Run {
     public static void main(String[] args) {
-        ArrayList<StudentInfo> info = new ArrayList<>();
+//        ArrayList<StudentInfo> info = new ArrayList<>();
+        ArrayList<StudentInfo> info = (ArrayList)StudentDataSource.JIA.getAllStudentInfos();
         Scanner s = new Scanner(System.in);
         for (; ; ) {
             System.out.println("--------------------欢迎来到学生管理系统,请选择-------------------\r\n" + "" +

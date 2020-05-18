@@ -1,4 +1,4 @@
-package cn.I_basic.day03_Cycle;
+package cn.I_basic.day03_Cycle_Swich;
 
 public class JudgeEqualMethod {
     public static void main(String[] args) {

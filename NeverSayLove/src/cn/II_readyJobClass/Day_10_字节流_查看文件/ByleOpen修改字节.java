@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class ByleOpen {
+public class ByleOpen修改字节 {
     public static void main(String[] args) throws IOException {
         long old = System.currentTimeMillis();
         FileInputStream fis = new FileInputStream("C:\\软件\\WPS Office\\10.1.0.5850\\office6\\wpsrenderer.exe");

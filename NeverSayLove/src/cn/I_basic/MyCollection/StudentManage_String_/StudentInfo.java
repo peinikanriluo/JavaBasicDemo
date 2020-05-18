@@ -1,5 +1,6 @@
 package cn.I_basic.MyCollection.StudentManage_String_;
 
+
 public class StudentInfo {
     String name;
     String number;

@@ -11,15 +11,17 @@ public class 可见性 {
     private volatile static boolean stop =false;
 
     public static void main(String[] args) throws InterruptedException {
+
         Thread thread = new Thread(() -> {
             int i = 0;
             while (!stop) {
                 i++;
             }
-            System.out.println("yes-->volatile使得线程可见");
+            System.out.println("yes-->volatile使得线程可见:: i="+i);
         });
         thread.start();
-        TimeUnit.SECONDS.sleep(1);
+        TimeUnit.SECONDS.sleep(1); // 一秒钟
         stop=true;
+
     }
 }

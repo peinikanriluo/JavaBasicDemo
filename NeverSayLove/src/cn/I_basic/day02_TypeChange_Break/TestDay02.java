@@ -1,4 +1,4 @@
-package cn.I_basic.day02;
+package cn.I_basic.day02_TypeChange_Break;
 
 public class TestDay02 {
     public static void main(String[] args) {

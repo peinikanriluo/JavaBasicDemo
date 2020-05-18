@@ -18,7 +18,7 @@ public class 原子性 {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 100; i++) {
             new Thread(原子性::inc).start();
         }
         Thread.sleep(3000);
